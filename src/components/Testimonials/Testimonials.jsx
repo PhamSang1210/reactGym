@@ -1,0 +1,23 @@
+import classNames from "classnames/bind";
+import styles from "./Testimonials.module.scss";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+const cx = classNames.bind(styles);
+
+function Testimonials() {
+    return (
+        <Swiper
+            spaceBetween={50}
+            slidesPerView={3}
+            onSlideChange={() => console.log("slide change")}
+            onSwiper={(swiper) => console.log(swiper)}
+        >
+            <SwiperSlide>Slide 1</SwiperSlide>
+            <SwiperSlide>Slide 2</SwiperSlide>
+            <SwiperSlide>Slide 3</SwiperSlide>
+            <SwiperSlide>Slide 4</SwiperSlide>
+        </Swiper>
+    );
+}
+
+export default Testimonials;

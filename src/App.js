@@ -1,9 +1,9 @@
 import Header from "./components/Header/Header";
 import Hero from "./components/UI/Hero";
-import Testimonials from "./components/Testimonials/Testimonials";
 import "aos/dist/aos.css";
 import Aos from "aos";
 import { useEffect } from "react";
+import Testimonials from "./components/Testimonials/Testimonials";
 
 function App() {
     useEffect(() => {
@@ -11,7 +11,7 @@ function App() {
     }, []);
 
     return (
-        <div className="App">
+        <div style={{ height: "3000px" }} className="App">
             <Header />
             <Hero />
             <Testimonials />

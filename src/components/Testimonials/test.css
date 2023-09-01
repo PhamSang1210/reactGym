@@ -9,19 +9,8 @@
     width: 600px;
 }
 
-.slide_item {
-    width: 100%;
-    object-fit: cover;
+.slide__item {
     background: #fff;
     padding: 30px;
     border-radius: 5px;
-}
-
-.test_object {
-    width: 100%;
-    max-width: 600px;
-}
-
-.slide__item {
-    width: 300px;
 }

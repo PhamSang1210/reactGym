@@ -5,7 +5,6 @@ import App from "./App";
 
 import "remixicon/fonts/remixicon.css";
 
-console.log(GlobalStyles);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <React.StrictMode>
